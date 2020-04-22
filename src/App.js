@@ -15,11 +15,7 @@ function App() {
             <Form />
           </Grid.Column>
           <Grid.Column verticalAlign='middle'>
-<<<<<<< HEAD
-            <Button color='twitter' icon='twitter' content='Continue with Twitter' />
-=======
-           
->>>>>>> 87d08682d0b5a4e9372ff5bc9e7e906055e3e7f6
+            <Button color='facebook' icon='facebook' content='Continue with Facebook' />
             <Button color='google plus' icon='google' content='Continue with Google' />
           </Grid.Column>
         </Grid>
