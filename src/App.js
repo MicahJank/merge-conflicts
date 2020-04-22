@@ -8,7 +8,7 @@ import Form from './components/Form.js';
 function App() {
   return (
     <Container fluid textAlign='center'>
-      <Header className='header' size='huge' content='Merge Conflicts 101' icon='github' textAlign='center' />
+      <Header as='h1' color='orange' className='header' size='huge' content='Merge Conflicts 101' icon='github' textAlign='center' />
       <Segment className='form-segment' size='massive' placeholder>
         <Grid columns={2} relaxed='very' stackable>
           <Grid.Column>
