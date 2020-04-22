@@ -6,7 +6,7 @@ import { Header, Container, Segment, Divider, Button, Icon, Grid } from 'semanti
 import Form from './components/Form.js';
 
 function App() {
-  return (
+  return ( 
     <Container fluid textAlign='center'>
       <Header as='h1' color='orange' className='header' size='huge' content='Merge Conflicts 101' icon='github' textAlign='center' />
       <Segment className='form-segment' size='massive' placeholder>
