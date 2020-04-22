@@ -17,7 +17,7 @@ const Form = () => {
       <input className='form-input' type='password' name="password" placeholder='password' ref={register({ required: true })} />
       {errors.password && <span>This field is required</span>}
       
-      <button className='ui primary button right floated big' type="submit">Log in</button>
+      <button className='ui primary button right floated big fluid' type="submit">Log in</button>
     </form>
   )
 }

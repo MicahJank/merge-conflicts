@@ -43,7 +43,7 @@
   text-align: center;
 }
 
-.ui.fluid.center.container {
+.ui.center.container {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -55,9 +55,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 40%;
+  width: 100%;
 }
 
 .form-input {
   margin: 100px 0;
+}
+
+.form-segment {
+  width: 60%;
+}
+
+.ui.button {
+  width: 400px;
+  max-width: 100% !important;
 }
