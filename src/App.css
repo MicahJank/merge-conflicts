@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ui.fluid.center.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ui.big.form {
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.form-input {
+  margin: 100px 0;
+}
